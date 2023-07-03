@@ -1,0 +1,39 @@
+.macos-layout {
+  background-color: white;
+
+  position: relative;
+
+  padding: 24px;
+}
+
+.circles-bar {
+  position: absolute;
+
+  top: 8px;
+  left: 8px;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.circle {
+  display: block;
+  border-radius: 50%;
+
+  width: 14px;
+  height: 14px;
+}
+
+.circle-red {
+  background-color: #ff5f57;
+}
+
+.circle-yellow {
+  background-color: #ffbd2e;
+}
+
+.circle-green {
+  background-color: #28ca41;
+}
