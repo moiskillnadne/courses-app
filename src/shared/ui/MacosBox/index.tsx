@@ -16,7 +16,7 @@ export const MacosBox = ({ children, width, height }: Props) => {
         <span className="circle circle-green" />
       </div>
 
-      {children}
+      <div className="macos-content">{children}</div>
     </div>
   )
 }

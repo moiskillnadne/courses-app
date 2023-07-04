@@ -1,21 +1,17 @@
 .macos-layout {
   background-color: white;
 
-  position: relative;
-
-  padding: 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25px 1fr;
 }
 
 .circles-bar {
-  position: absolute;
-
-  top: 8px;
-  left: 8px;
-
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
   gap: 5px;
+
+  padding-left: 8px;
 }
 
 .circle {
@@ -36,4 +32,8 @@
 
 .circle-green {
   background-color: #28ca41;
+}
+
+.macos-content {
+  padding: 8px;
 }

@@ -11,10 +11,11 @@
 
 .target-audience-content-item {
   padding: 0px 12px;
+  height: 250px;
 }
 
 .target-audience-content-item > p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .item-1 {
