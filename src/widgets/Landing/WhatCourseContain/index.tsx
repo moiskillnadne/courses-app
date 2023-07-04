@@ -12,6 +12,7 @@ export const LandingWhatCourseContain = () => {
       <CourseFeature />
       <Divider size="150px" />
       <CourseStructure />
+      <Divider size="50px" />
     </MacosBox>
   )
 }
