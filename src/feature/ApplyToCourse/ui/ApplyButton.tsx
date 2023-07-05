@@ -1,0 +1,23 @@
+import { Button } from "~/shared/ui"
+import { THEME } from "~/shared/utils"
+
+import "./style.css"
+
+export const ApplyButton = () => {
+  const onApplyClick = () => {
+    console.log("apply click")
+  }
+
+  return (
+    <div className="apply-to-course">
+      <Button
+        onClick={onApplyClick}
+        padding="15px 125px"
+        fontSize="18px"
+        backgroundColor={THEME.color.purple}
+        color={THEME.color.white}>
+        Записаться
+      </Button>
+    </div>
+  )
+}

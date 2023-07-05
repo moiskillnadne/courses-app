@@ -5,5 +5,6 @@ export const THEME = {
     },
     purple: "#BC02CC",
     green: "#2BCB44",
+    white: "#FFFFFF",
   },
 }

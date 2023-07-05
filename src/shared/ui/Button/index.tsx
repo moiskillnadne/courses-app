@@ -8,12 +8,18 @@ type Props = PropsWithChildren<{
 
   backgroundColor?: string
   color?: string
+  padding?: string
+  fontSize?: string
+
   variant?: "primary" | "secondary" | "info" | "success" | "warning" | "danger"
 }>
 
-export const Button = ({ children, onClick, backgroundColor, color }: Props) => {
+export const Button = ({ children, onClick, backgroundColor, color, padding, fontSize }: Props) => {
   return (
-    <button onClick={onClick} className={classNames("default-button")} style={{ backgroundColor, color }}>
+    <button
+      onClick={onClick}
+      className={classNames("default-button")}
+      style={{ backgroundColor, color, padding, fontSize }}>
       {children}
     </button>
   )
