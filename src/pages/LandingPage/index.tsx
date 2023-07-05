@@ -1,6 +1,12 @@
 import { ApplyButton } from "~/feature/ApplyToCourse"
 import { Divider } from "~/shared/ui"
-import { LandingHeader, LandingTargetAudience, LandingTeacher, LandingWhatCourseContain } from "~/widgets/Landing"
+import {
+  LandingHeader,
+  LandingTargetAudience,
+  LandingTeacher,
+  LandingWhatCourseContain,
+  LandingSupport,
+} from "~/widgets/Landing"
 
 export const LandingPage = () => {
   return (
@@ -13,6 +19,7 @@ export const LandingPage = () => {
       <Divider size="100px" />
       <LandingWhatCourseContain />
       <ApplyButton />
+      <LandingSupport />
     </div>
   )
 }
