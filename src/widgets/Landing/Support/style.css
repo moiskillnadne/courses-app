@@ -1,0 +1,37 @@
+.support-title-block {
+  color: white;
+}
+
+.support-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 10px;
+}
+
+.support-content-item {
+  background-color: white;
+  padding: 20px;
+}
+
+.support-item-1 {
+  grid-column: 2 / 3;
+}
+
+.support-item-2 {
+  grid-column: 3 / 4;
+}
+
+.support-item-image {
+  display: flex;
+  justify-content: end;
+}
+
+.support-item-image > div {
+  height: 280px;
+}
+
+.support-item-image img {
+  height: 100%;
+  opacity: 0.5;
+}

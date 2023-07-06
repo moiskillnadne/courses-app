@@ -1,0 +1,67 @@
+.rates-background-pattern {
+  background-image: url("../../../assets/media/pattern-main.png");
+  background-size: 100%;
+  background-position: center;
+}
+
+.rates-layout {
+  backdrop-filter: brightness(0.5);
+
+  padding: 24px;
+}
+
+.rates-title-wrapper {
+  color: white;
+}
+
+.rates-content-wrapper {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+
+  grid-auto-flow: column;
+  gap: 24px;
+}
+
+.rate-card-item {
+  background-color: #121212;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rate-card-item li {
+  margin-bottom: 8px;
+}
+
+.rate-card-item-1 p {
+  text-align: end;
+  color: #121212;
+
+  font-size: 34px;
+  -webkit-text-stroke: 1px #2BCB44; /* width and color */
+}
+
+.rate-card-item-1 {
+  grid-column: 2 / 3;
+
+  color: #2BCB44;
+  border: 2px solid #2BCB44;
+}
+
+.rate-card-item-2 {
+  grid-column: 3 / 4;
+
+  color: #BC02CC;
+  border: 2px solid #BC02CC;
+}
+
+.rate-card-item-2 p {
+  text-align: end;
+  color: #121212;
+
+  font-size: 34px;
+  -webkit-text-stroke: 1px #BC02CC; /* width and color */
+}
