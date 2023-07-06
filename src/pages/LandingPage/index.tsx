@@ -8,6 +8,7 @@ import {
   LandingSupport,
   LandingEmployment,
   LandingResult,
+  LadningRates,
 } from "~/widgets/Landing"
 
 export const LandingPage = () => {
@@ -28,6 +29,9 @@ export const LandingPage = () => {
       <ApplyButton />
       <Divider size="100px" />
       <LandingResult />
+      <Divider size="100px" />
+      <LadningRates />
+      <ApplyButton />
     </div>
   )
 }
