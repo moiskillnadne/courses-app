@@ -9,6 +9,7 @@ import {
   LandingEmployment,
   LandingResult,
   LandingRates,
+  LandingQuestions,
 } from "~/widgets/Landing"
 
 export const LandingPage = () => {
@@ -32,6 +33,7 @@ export const LandingPage = () => {
       <Divider size="100px" />
       <LandingRates />
       <ApplyButton />
+      <LandingQuestions />
     </div>
   )
 }

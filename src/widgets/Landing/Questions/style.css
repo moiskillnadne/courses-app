@@ -1,0 +1,34 @@
+.questions-title {
+  color: white;
+}
+
+.questions-content-layout {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.question-list {
+  grid-column: 2 / 3;
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  margin-bottom: 50px;
+}
+
+.question-card-header {
+  background-color: #BC02CC;
+  color: #FFFFFF;
+
+  padding: 12px;
+
+  border-radius: 12px;
+}
+
+.question-card-body {
+  border-radius: 12px;
+  overflow: hidden;
+}
