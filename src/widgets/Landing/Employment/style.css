@@ -1,0 +1,47 @@
+.employment-title-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  color: white;
+}
+
+.employment-content-feature-list-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.employment-feature-item {
+  display: flex;
+}
+
+.feature-item-number {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+}
+
+.feature-item-card {
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  
+  padding: 16px;
+
+  width: 850px;
+}
+
+.feature-item-card > h2 {
+  font-size: 20px;
+}
+
+.feature-item-card-icon,
+.feature-item-card-icon > img {
+  width: 90px;
+  height: 90px;
+}

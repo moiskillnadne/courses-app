@@ -6,6 +6,7 @@ import {
   LandingTeacher,
   LandingWhatCourseContain,
   LandingSupport,
+  LandingEmployment,
 } from "~/widgets/Landing"
 
 export const LandingPage = () => {
@@ -20,6 +21,10 @@ export const LandingPage = () => {
       <LandingWhatCourseContain />
       <ApplyButton />
       <LandingSupport />
+      <Divider size="100px" />
+      <LandingEmployment />
+      <Divider size="100px" />
+      <ApplyButton />
     </div>
   )
 }
