@@ -10,6 +10,7 @@ import {
   LandingResult,
   LandingRates,
   LandingQuestions,
+  LandingFooter,
 } from "~/widgets/Landing"
 
 export const LandingPage = () => {
@@ -34,6 +35,7 @@ export const LandingPage = () => {
       <LandingRates />
       <ApplyButton />
       <LandingQuestions />
+      <LandingFooter />
     </div>
   )
 }

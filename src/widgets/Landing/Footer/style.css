@@ -1,0 +1,49 @@
+.footer-layout {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 12px;
+
+  height: 200px;
+  background-color: black;
+  color: white;
+
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.footer-section-1 {
+  grid-column: 1 / 2;
+}
+
+.footer-section-2 {
+  grid-column: 3 / 4;
+}
+
+.footer-section-3 {
+  grid-column: 4 / 5;
+}
+
+.footer-section-4 {
+  grid-column: 5 / 6;
+}
+
+.footer-section-5 {
+  grid-column: 6 / 7;
+}
+
+.common-style-for-footer-links {
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+}
+
+.common-style-for-footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.common-style-for-footer-links a:hover {
+  text-decoration: underline;
+}
