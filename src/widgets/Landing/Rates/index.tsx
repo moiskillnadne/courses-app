@@ -1,6 +1,6 @@
 import "./style.css"
 
-export const LadningRates = () => {
+export const LandingRates = () => {
   return (
     <div className="rates-background-pattern">
       <div className="rates-layout">
