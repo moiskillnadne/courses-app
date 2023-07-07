@@ -5,7 +5,7 @@ import "./style.css"
 
 export const LandingTeacher = () => {
   return (
-    <div className="teacher-block">
+    <div id="teacher" className="teacher-block">
       <div className="teacher-avatar">
         <div>
           <img src={TeacherPhoto} alt="Viktor Riabkov photo" />

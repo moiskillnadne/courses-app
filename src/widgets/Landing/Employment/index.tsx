@@ -11,7 +11,7 @@ import "./style.css"
 
 export const LandingEmployment = () => {
   return (
-    <div className="employment">
+    <div id="employment" className="employment">
       <div className="employment-title-wrapper">
         <div>
           <h1>Трудоустройство</h1>

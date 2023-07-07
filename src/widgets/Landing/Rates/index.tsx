@@ -2,7 +2,7 @@ import "./style.css"
 
 export const LandingRates = () => {
   return (
-    <div className="rates-background-pattern">
+    <div id="rates" className="rates-background-pattern">
       <div className="rates-layout">
         <div className="rates-title-wrapper">
           <h2>Тарифы</h2>
