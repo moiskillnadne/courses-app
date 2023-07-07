@@ -94,10 +94,10 @@
   border-radius: 12px;
 }
 
-.course-block-item > div {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+.course-block-item li {
+  margin-bottom: 4px;
 }
+
 .course-block-item  h3 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;

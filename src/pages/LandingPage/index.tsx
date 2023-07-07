@@ -7,7 +7,6 @@ import {
   LandingWhatCourseContain,
   LandingSupport,
   LandingEmployment,
-  LandingResult,
   LandingRates,
   LandingQuestions,
   LandingFooter,
@@ -29,8 +28,6 @@ export const LandingPage = () => {
       <LandingEmployment />
       <Divider size="100px" />
       <ApplyButton />
-      <Divider size="100px" />
-      <LandingResult />
       <Divider size="100px" />
       <LandingRates />
       <ApplyButton />
