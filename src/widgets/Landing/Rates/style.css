@@ -56,6 +56,8 @@
 
   color: #BC02CC;
   border: 2px solid #BC02CC;
+
+  position: relative;
 }
 
 .rate-card-item-2 p {
@@ -64,4 +66,24 @@
 
   font-size: 34px;
   -webkit-text-stroke: 1px #BC02CC; /* width and color */
+}
+
+.popover-inprogress {
+  position: absolute;
+
+  z-index: 10;
+
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+
+  backdrop-filter: blur(12px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
 }

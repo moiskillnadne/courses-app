@@ -30,7 +30,7 @@ export const LandingRates = () => {
           </div>
           <div className="rate-card-item rate-card-item-2">
             <div>
-              <h2>Ебанутый</h2>
+              <h2>Премиум</h2>
             </div>
             <div>
               <ul>
@@ -42,13 +42,13 @@ export const LandingRates = () => {
                 <li>Закрытая группа</li>
                 <li>Блок по трудоустройству</li>
                 <li>Сопровождение трудоустройства (2 месяца после окончания)</li>
-                <li>Доп </li>
-                <li>Доп</li>
               </ul>
             </div>
             <div>
               <p>150 тыс.руб.</p>
             </div>
+
+            <div className="popover-inprogress">Тариф находится в разработке</div>
           </div>
         </div>
       </div>
