@@ -5,14 +5,11 @@ import "./style.css"
 
 export const LandingHeader = () => {
   return (
-    <div className="header-background-pattern">
+    <div id="landing-header" className="header-background-pattern">
       <div className="header-content">
         <div className="header-navbar">
           <Button backgroundColor={THEME.color.green} color="#FFFFFF">
             Курс
-          </Button>
-          <Button backgroundColor={THEME.color.purple} color="#FFFFFF">
-            Все курсы
           </Button>
         </div>
         <div className="header-title">

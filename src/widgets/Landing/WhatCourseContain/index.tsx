@@ -6,7 +6,7 @@ import { Divider, MacosBox } from "~/shared/ui"
 export const LandingWhatCourseContain = () => {
   return (
     <MacosBox>
-      <div>
+      <div id="course-contain">
         <h1>из чего курс состоит</h1>
       </div>
       <CourseFeature />

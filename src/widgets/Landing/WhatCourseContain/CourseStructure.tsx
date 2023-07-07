@@ -2,7 +2,7 @@ import classNames from "classnames"
 
 export const CourseStructure = () => {
   return (
-    <div className="course-structure-pattern">
+    <div id="course-structure" className="course-structure-pattern">
       <div className="course-structure">
         <div className="course-structure-title">
           <h1>Блоки курса</h1>

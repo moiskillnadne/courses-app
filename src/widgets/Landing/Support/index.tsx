@@ -7,7 +7,7 @@ import "./style.css"
 
 export const LandingSupport = () => {
   return (
-    <div className="support">
+    <div id="support" className="support">
       <div className="support-title-block">
         <h1>Поддержка на курсе</h1>
       </div>
