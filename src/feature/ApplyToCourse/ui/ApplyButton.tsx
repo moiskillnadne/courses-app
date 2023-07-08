@@ -5,7 +5,7 @@ import "./style.css"
 
 export const ApplyButton = () => {
   const onApplyClick = () => {
-    console.log("apply click")
+    return window.open("https://t.me/ryabkov_support_bot", "_blank")
   }
 
   return (
