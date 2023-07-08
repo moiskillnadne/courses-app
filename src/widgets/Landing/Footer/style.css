@@ -47,3 +47,35 @@
 .common-style-for-footer-links a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+  .footer-layout {
+    display: flex;
+    flex-direction: column-reverse;
+
+    justify-content: space-around;
+    align-items: center;
+
+    height: 380px;
+  }
+
+  .footer-section-1 {
+    grid-column: none;
+  }
+  
+  .footer-section-2 {
+    grid-column: none;
+  }
+  
+  .footer-section-3 {
+    grid-column: none;
+  }
+  
+  .footer-section-4 {
+    grid-column: none;
+  }
+  
+  .footer-section-5 {
+    grid-column: none;
+  }
+}

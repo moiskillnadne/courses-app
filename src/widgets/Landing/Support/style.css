@@ -35,3 +35,17 @@
   height: 100%;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 500px) {
+  .support-content {
+    grid-template-columns: 1fr ;
+  }
+
+  .support-item-1 {
+    grid-column: none;
+  }
+  
+  .support-item-2 {
+    grid-column: none;
+  }
+}

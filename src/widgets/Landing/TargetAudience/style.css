@@ -44,3 +44,28 @@
   background: #FFF;
   color: #BC02CC;
 }
+
+@media screen and (max-width: 500px) {
+  .target-audience-content {
+    grid-template-columns: 1fr;
+  }
+  .item-1 {
+    grid-column: none;
+    grid-row: 1 / 2;
+  }
+  
+  .item-2 {
+    grid-column: none;
+    grid-row: 2 / 3;
+  }
+  
+  .item-3 {
+    grid-column: none;
+    grid-row: 3/ 4;
+  }
+
+  .target-audience-content-item > p {
+    font-size: 16px;
+  }
+
+}
