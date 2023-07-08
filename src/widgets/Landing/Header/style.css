@@ -10,6 +10,9 @@
 .header-content {
   padding: 16px 8px;
   backdrop-filter: brightness(0.5);
+  -ms-backdrop-filter: brightness(0.5);
+  -webkit-backdrop-filter: brightness(0.5);
+  -moz-backdrop-filter: brightness(0.5);
 }
 
 .header-navbar {
