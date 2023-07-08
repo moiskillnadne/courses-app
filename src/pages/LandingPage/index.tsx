@@ -33,6 +33,7 @@ export const LandingPage = () => {
       <ApplyButton />
       <LandingQuestions />
       <LandingFooter />
+      <Divider size="100px" />
     </div>
   )
 }

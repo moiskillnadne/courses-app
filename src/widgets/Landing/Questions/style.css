@@ -32,3 +32,9 @@
   border-radius: 12px;
   overflow: hidden;
 }
+
+@media screen and (max-width: 500px) {
+  .questions-content-layout {
+    grid-template-columns: 1fr;
+  }
+}

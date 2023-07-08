@@ -87,3 +87,22 @@
 
   font-size: 22px;
 }
+
+@media screen and (max-width: 500px) {
+  .rates-content-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .rate-card-item-1 {
+    grid-column: none;
+  
+  }
+  
+  .rate-card-item-2 {
+    grid-column: none;
+  }
+
+  .popover-inprogress {
+    font-size: 16px;
+  }
+}
