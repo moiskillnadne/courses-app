@@ -1,5 +1,7 @@
-import { Button } from "../../../shared/ui"
-import { THEME } from "../../../shared/utils"
+import Logo from "~/assets/media/vr-course-logo.png"
+import { Button } from "~/shared/ui"
+import { THEME } from "~/shared/utils"
+
 import "./style.css"
 
 export const LandingFooter = () => {
@@ -7,7 +9,7 @@ export const LandingFooter = () => {
     <div className="footer-layout">
       <div className="footer-section-1">
         <div>
-          <img src="" alt="Logo" />
+          <img src={Logo} alt="Logo" />
         </div>
         <div>
           <p>Created by Viktor Riabkov</p>

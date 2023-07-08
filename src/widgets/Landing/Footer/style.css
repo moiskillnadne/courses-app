@@ -12,6 +12,10 @@
   border-radius: 12px;
 }
 
+.footer-section-1 img {
+  height: 75px;
+}
+
 .footer-section-1 {
   grid-column: 1 / 2;
 }
