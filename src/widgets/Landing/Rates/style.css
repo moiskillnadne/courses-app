@@ -6,6 +6,9 @@
 
 .rates-layout {
   backdrop-filter: brightness(0.5);
+  -ms-backdrop-filter: brightness(0.5);
+  -webkit-backdrop-filter: brightness(0.5);
+  -moz-backdrop-filter: brightness(0.5);
 
   padding: 24px;
 }
@@ -68,6 +71,10 @@
   -webkit-text-stroke: 1px #BC02CC; /* width and color */
 }
 
+.blur-content {
+  filter: blur(12px);
+}
+
 .popover-inprogress {
   position: absolute;
 
@@ -80,6 +87,9 @@
   left: 0;
 
   backdrop-filter: blur(12px);
+  -ms-backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  -moz-backdrop-filter: blur(12px);
 
   display: flex;
   justify-content: center;

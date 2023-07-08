@@ -2,18 +2,24 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 
-  gap: 12px;
+  gap: 20px;
 
-  height: 200px;
   background-color: black;
   color: white;
 
   padding: 24px;
   border-radius: 12px;
+
 }
 
 .footer-section-1 img {
   height: 75px;
+}
+
+.footer-section-1 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-section-1 {
@@ -21,7 +27,7 @@
 }
 
 .footer-section-2 {
-  grid-column: 3 / 4;
+  grid-column: 2 / 4;
 }
 
 .footer-section-3 {
@@ -59,8 +65,6 @@
 
     justify-content: space-around;
     align-items: center;
-
-    height: 380px;
   }
 
   .footer-section-1 {

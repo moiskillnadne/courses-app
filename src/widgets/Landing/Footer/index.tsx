@@ -40,7 +40,6 @@ export const LandingFooter = () => {
           <a href="#rates">Тарифы</a>
         </div>
       </div>
-      <div className="footer-section-4"></div>
       <div className="footer-section-5">
         <Button
           backgroundColor={THEME.color.purple}
