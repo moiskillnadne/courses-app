@@ -11,14 +11,14 @@ export const LandingFooter = () => {
         <div>
           <img src={Logo} alt="Logo" />
         </div>
-        <div>
-          <p>Created by Viktor Riabkov</p>
-        </div>
-        <div>
-          <p>2023</p>
+
+        <div className="contact-information">
+          <p>ИП Рябков В. А.</p>
+          <p>ИНН 780448416731</p>
+          <p>ОГРНИП 322784700075522</p>
         </div>
       </div>
-      <div className="footer-section-2 common-style-for-footer-links ">
+      <div className="footer-section-2 common-style-for-footer-links">
         <div>
           <a href="#teacher">О преподавателе</a>
         </div>
@@ -29,7 +29,7 @@ export const LandingFooter = () => {
           <a href="#employment">Трудоустройство</a>
         </div>
       </div>
-      <div className="footer-section-3 common-style-for-footer-links ">
+      <div className="footer-section-3 common-style-for-footer-links">
         <div>
           <a href="#course-contain">Из чего состоит курс</a>
         </div>
