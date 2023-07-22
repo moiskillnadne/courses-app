@@ -1,3 +1,4 @@
+import OfertaPdf from "~/assets/media/files/Riabkov-oferta.pdf"
 import Logo from "~/assets/media/vr-course-logo.png"
 import { Button } from "~/shared/ui"
 import { THEME } from "~/shared/utils"
@@ -41,14 +42,22 @@ export const LandingFooter = () => {
         </div>
       </div>
       <div className="footer-section-5">
-        <Button
-          backgroundColor={THEME.color.purple}
-          color={THEME.color.white}
-          onClick={() => {
-            window.location.href = "#landing-header"
-          }}>
-          К началу
-        </Button>
+        <div>
+          <Button
+            backgroundColor={THEME.color.purple}
+            color={THEME.color.white}
+            onClick={() => {
+              window.location.href = "#landing-header"
+            }}>
+            К началу
+          </Button>
+        </div>
+
+        <div>
+          <a href={OfertaPdf} target="_blank" rel="noreferrer">
+            Оферта
+          </a>
+        </div>
       </div>
     </div>
   )

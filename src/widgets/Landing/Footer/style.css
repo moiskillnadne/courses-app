@@ -45,6 +45,13 @@
 
 .footer-section-5 {
   grid-column: 6 / 7;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 6px;
 }
 
 .common-style-for-footer-links {
